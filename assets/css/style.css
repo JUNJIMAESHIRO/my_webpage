@@ -1,0 +1,235 @@
+body {
+  font-size: 1.2vw;
+}
+
+.guide-line {
+  max-width: 1000px;
+}
+
+header {
+  height: 10vw;
+  width: 100vw;
+  background-color: white;
+  position: relative;
+}
+
+.my-web {
+  height: 50%;
+  width: 70%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  position: absolute;
+  top: 35%;
+  left: 10%;
+  background-color: white;
+  font-size: 3vw;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  color: rgb(48, 48, 48);
+}
+
+.my-web img {
+  height: 4vw;
+  width: auto;
+}
+
+.header-content {
+  background-color:white;
+  height: 8vw;
+  width: 100vw;
+  position: relative;
+  border-bottom: solid 2px rgb(155, 155, 155);
+}
+
+.header-content ul {
+  height: 60%;
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  background-color: white;
+}
+
+.header-content li {
+  padding-left: 40px;
+  padding-right: 40px;
+  font-size: 2vw;
+}
+
+.header-content li a {
+  text-decoration: none;
+  color: rgb(92, 92, 92);
+}
+
+.header-content li a:hover {
+  color: black;
+  font-size: 2.5vw;
+}
+
+.about-manu {
+  height: 34vw;
+  width: 100vw;
+  border-bottom: solid 2px rgb(155, 155, 155);
+  background-color: rgb(197, 197, 197);
+  padding-top: 50px;
+}
+
+#about {
+  margin-left: 10%;
+  height: 90%;
+  width: 80%;
+}
+
+.title {
+  font-size: 3vw;
+  color: rgb(92, 92, 92);
+  margin-bottom: 3vw;
+  text-align: center;
+}
+
+#about p {
+  font-size: 1.2vw;
+  padding-bottom: 2vw;
+  padding-left: 3vw;
+  line-height: 2.5vw;
+}
+
+.fa-9x {
+  position: relative;
+  padding-left: 5vw;
+}
+
+.fa-9x:after{
+  content: "";
+  position: absolute;
+  top: -3vw;
+  left: 3vw;
+  display: inline-block;
+  pointer-events: none;
+  width: 14vw;
+  height: 14vw;
+}
+
+.fa-9x:hover:after{
+  background: url(../img/picture/instagram.JPG);
+  background-size: contain; 
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 3vw;
+  padding-right: 10vw;
+}
+
+.pro-content {
+  display: flex;
+  justify-content: space-around;
+  margin: 1.5vw 6vw 2vw 3vw;
+  padding: 0 2vw;
+  line-height: 4vw;
+  border: solid 1px black;
+}
+
+.like-menu {
+  height: 47vw;
+  width: 100vw;
+  border-bottom: solid 2px rgb(155, 155, 155);
+  padding-top: 3vw;
+}
+
+.cards {
+  height: 35vw;
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+}
+
+.card {
+  height: 36vw;
+  width: 25vw;
+  border: solid 3px gray;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(49, 49, 49);
+}
+
+.card h3 {
+  padding-top: 1.5vw;
+  padding-bottom: 1.5vw;
+  text-align: center;
+  font-size: 1.6vw;
+  color: rgb(155, 155, 155);
+}
+
+.like-picture {
+  width: 25vw;
+  height: 26vw;
+  background-size: cover;
+}
+
+.miyagi {
+  background-image: url(../img/picture/miyagikaigann1.JPG);
+}
+
+.miyagi:hover {
+  background-image: url(../img/picture/miyagikaigan2.JPG);
+}
+
+.bonfire {
+  background-image: url(../img/picture/bonfire_1.JPG);
+}
+
+.bonfire:hover {
+  background-image: url(../img/picture/bonfire_2.JPG);
+}
+.travel {
+  background-image: url(../img/picture/thailand_1.JPG);
+}
+
+.travel:hover {
+  background-image: url(../img/picture/thailand_2.JPG);
+}
+
+.card p {
+  padding-top: 2vw;
+  padding-bottom: 2vw;
+  text-align: center;
+  color: white;
+  line-height: 1.5vw;
+}
+
+.goal-menu {
+  height: 15vw;
+  width: 100vw;
+  border-bottom: solid 2px rgb(155, 155, 155);
+  padding-top: 4vw;
+  background-color: rgb(197, 197, 197);
+}
+
+.goal-menu div {
+  text-align: center;
+  font-size: 2vw;
+  padding-top: 4vw;
+}
+
+footer {
+  height: 6vw;
+  background-color: rgb(3, 3, 49);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer p {
+  color: white;
+  font-size: 1.5vw;
+}
+
