@@ -233,3 +233,46 @@ footer p {
   font-size: 1.5vw;
 }
 
+@media screen and (max-width: 479px){
+  #about {
+    margin-left: 4%;
+    height: 80%;
+    width: 92%;
+}
+
+  .about-manu{
+    height: 70vw;
+    padding-top: 20px;
+  }
+
+  #about p{
+    padding-bottom: 4vw;
+    line-height: 5vw;
+  }
+
+  .profile{
+    display: flex;
+    flex-direction: column;
+    padding-left: 5vw;
+    padding-top: 1vw;
+  }
+
+  .like-menu {
+    height: 61vw;
+    width: 100vw;
+    border-bottom: solid 2px rgb(155, 155, 155);
+    padding-top: 5vw;
+    
+  }
+
+  .card {
+    height: 50vw;
+  }
+
+  .card p{
+    padding-top: 3vw;
+    padding-bottom: 2vw;
+    text-align: start;
+    color: white;
+  }
+}
