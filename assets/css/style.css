@@ -233,7 +233,7 @@ footer p {
   font-size: 1.5vw;
 }
 
-@media screen and (max-width: 479px){
+@media screen and (max-width: 400px){
   #about {
     margin-left: 4%;
     height: 80%;
